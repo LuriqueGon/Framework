@@ -3,8 +3,7 @@
     "description": "Um framework Inicial",
     "type": "project",
     "require": {
-        "php": ">=7.0",
-        "luriquegon/framework": "1.0.0"
+        "php": ">=7.0"
     },
     "license": "MIT",
     "autoload": {
