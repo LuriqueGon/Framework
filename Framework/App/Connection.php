@@ -7,7 +7,7 @@
     class Connection
     {
 
-        const DATABASE_NAME = "db_teste";
+        const DATABASE_NAME = "estoque";
 
         public static function getDB()
         {
@@ -18,7 +18,7 @@
                     "dbname=".Connection::DATABASE_NAME.";". //Nome do banco
                     "charset=utf8", //Tipo de char
                     "root", //Usuario
-                    "root" //Senha
+                    "" //Senha
                 );
                 return $conn;
                 
